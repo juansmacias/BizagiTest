@@ -1,23 +1,15 @@
 <snippet>
   <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
-## Installation
-TODO: Describe the installation process
-## Usage
-TODO: Write usage instructions
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
-## License
-TODO: Write license
-]]></content>
+    # BizagiTest
+    Prueba de admisión para la empresa Bizagi.
+    Funcionalidades
+      -Aloja actividades locales del proceso de vacaciones.
+      -Descarga actividades de servidor.
+      -Permite aceptar una actividad, al seleccionarla.
+      -Permite rechazar una actividad, al seleccionarla.
+    ## Instalación y Ejecución
+    En primera instancia se debe desacargar el zip del proyecto al escritorio del equipo. Segundo se abre el archivo                   BizagiTest.xcodeproj. Para finalizar se complica y se corre la aplicación normalmente desde Xcode.   
+    ]]>
+  </content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
