@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D05B9F41C78BB38008F0EEC /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D05B9F31C78BB38008F0EEC /* ActivityTableViewCell.m */; };
+		0D05B9F61C78BB5B008F0EEC /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D05B9F51C78BB5B008F0EEC /* ActivityTableViewCell.xib */; };
+		0D05B9F71C78C0A5008F0EEC /* TestCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021EE1C7782AF001BD186 /* TestCentral.m */; };
+		0D05B9F81C78C0A6008F0EEC /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021F11C778A72001BD186 /* Activity.m */; };
+		0D05B9FC1C78C2B6008F0EEC /* ActivityC1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D05B9FB1C78C2B6008F0EEC /* ActivityC1.json */; };
 		0D1021B91C777D66001BD186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021B81C777D66001BD186 /* main.m */; };
 		0D1021BC1C777D66001BD186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021BB1C777D66001BD186 /* AppDelegate.m */; };
-		0D1021BF1C777D66001BD186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021BE1C777D66001BD186 /* ViewController.m */; };
 		0D1021C21C777D66001BD186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1021C01C777D66001BD186 /* Main.storyboard */; };
 		0D1021C41C777D66001BD186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1021C31C777D66001BD186 /* Assets.xcassets */; };
 		0D1021C71C777D66001BD186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1021C51C777D66001BD186 /* LaunchScreen.storyboard */; };
-		0D1021D21C777D66001BD186 /* BizagiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021D11C777D66001BD186 /* BizagiTestTests.m */; };
-		0D1021DD1C777D66001BD186 /* BizagiTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021DC1C777D66001BD186 /* BizagiTestUITests.m */; };
+		0D1021D21C777D66001BD186 /* LocalBizagiTestTestsC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021D11C777D66001BD186 /* LocalBizagiTestTestsC1.m */; };
+		0D1021EF1C7782AF001BD186 /* TestCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021EE1C7782AF001BD186 /* TestCentral.m */; };
+		0D1021F21C778A72001BD186 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1021F11C778A72001BD186 /* Activity.m */; };
+		0D1021F41C77BDC1001BD186 /* Activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D1021F31C77BDC1001BD186 /* Activities.json */; };
+		0D6A3EF11C7AAEA4006B55EF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A3EF01C7AAEA4006B55EF /* Reachability.m */; };
+		0D6A3EF41C7ABAC8006B55EF /* ServerBizagiTestTestsC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A3EF31C7ABAC8006B55EF /* ServerBizagiTestTestsC1.m */; };
+		0DCCD0A51C78DC7600187EEF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCCD0A41C78DC7600187EEF /* HomeViewController.m */; };
+		0DCCD0A71C78F99900187EEF /* AllActivities.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DCCD0A61C78F99900187EEF /* AllActivities.json */; };
+		0DEEBF491C78D587005760B4 /* LocalBizagiTestUnitTestC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEEBF481C78D587005760B4 /* LocalBizagiTestUnitTestC2.m */; };
+		0DEEBF4B1C78D5C9005760B4 /* ActivitiesC2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DEEBF4A1C78D5C9005760B4 /* ActivitiesC2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,32 +37,37 @@
 			remoteGlobalIDString = 0D1021B31C777D65001BD186;
 			remoteInfo = BizagiTest;
 		};
-		0D1021D91C777D66001BD186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D1021AC1C777D65001BD186 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D1021B31C777D65001BD186;
-			remoteInfo = BizagiTest;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D05B9F21C78BB38008F0EEC /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityTableViewCell.h; path = UI/ActivityTableViewCell.h; sourceTree = "<group>"; };
+		0D05B9F31C78BB38008F0EEC /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityTableViewCell.m; path = UI/ActivityTableViewCell.m; sourceTree = "<group>"; };
+		0D05B9F51C78BB5B008F0EEC /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActivityTableViewCell.xib; path = UI/ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		0D05B9FB1C78C2B6008F0EEC /* ActivityC1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ActivityC1.json; sourceTree = "<group>"; };
 		0D1021B41C777D65001BD186 /* BizagiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizagiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1021B81C777D66001BD186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D1021BA1C777D66001BD186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D1021BB1C777D66001BD186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D1021BD1C777D66001BD186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D1021BE1C777D66001BD186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D1021C11C777D66001BD186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D1021C31C777D66001BD186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D1021C61C777D66001BD186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D1021C81C777D66001BD186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D1021CD1C777D66001BD186 /* BizagiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizagiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D1021D11C777D66001BD186 /* BizagiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BizagiTestTests.m; sourceTree = "<group>"; };
+		0D1021D11C777D66001BD186 /* LocalBizagiTestTestsC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalBizagiTestTestsC1.m; sourceTree = "<group>"; };
 		0D1021D31C777D66001BD186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D1021D81C777D66001BD186 /* BizagiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizagiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D1021DC1C777D66001BD186 /* BizagiTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BizagiTestUITests.m; sourceTree = "<group>"; };
-		0D1021DE1C777D66001BD186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1021ED1C7782AF001BD186 /* TestCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestCentral.h; path = models/TestCentral.h; sourceTree = "<group>"; };
+		0D1021EE1C7782AF001BD186 /* TestCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestCentral.m; path = models/TestCentral.m; sourceTree = "<group>"; };
+		0D1021F01C778A72001BD186 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Activity.h; path = models/Activity.h; sourceTree = "<group>"; };
+		0D1021F11C778A72001BD186 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Activity.m; path = models/Activity.m; sourceTree = "<group>"; };
+		0D1021F31C77BDC1001BD186 /* Activities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Activities.json; sourceTree = "<group>"; };
+		0D6A3EEF1C7AAEA4006B55EF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0D6A3EF01C7AAEA4006B55EF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0D6A3EF31C7ABAC8006B55EF /* ServerBizagiTestTestsC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBizagiTestTestsC1.m; sourceTree = "<group>"; };
+		0DCCD0A31C78DC7600187EEF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = UI/HomeViewController.h; sourceTree = "<group>"; };
+		0DCCD0A41C78DC7600187EEF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = UI/HomeViewController.m; sourceTree = "<group>"; };
+		0DCCD0A61C78F99900187EEF /* AllActivities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllActivities.json; sourceTree = "<group>"; };
+		0DEEBF481C78D587005760B4 /* LocalBizagiTestUnitTestC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBizagiTestUnitTestC2.m; sourceTree = "<group>"; };
+		0DEEBF4A1C78D5C9005760B4 /* ActivitiesC2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ActivitiesC2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +85,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D1021D51C777D66001BD186 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +93,6 @@
 			children = (
 				0D1021B61C777D66001BD186 /* BizagiTest */,
 				0D1021D01C777D66001BD186 /* BizagiTestTests */,
-				0D1021DB1C777D66001BD186 /* BizagiTestUITests */,
 				0D1021B51C777D65001BD186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +102,6 @@
 			children = (
 				0D1021B41C777D65001BD186 /* BizagiTest.app */,
 				0D1021CD1C777D66001BD186 /* BizagiTestTests.xctest */,
-				0D1021D81C777D66001BD186 /* BizagiTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,13 +111,11 @@
 			children = (
 				0D1021BA1C777D66001BD186 /* AppDelegate.h */,
 				0D1021BB1C777D66001BD186 /* AppDelegate.m */,
-				0D1021BD1C777D66001BD186 /* ViewController.h */,
-				0D1021BE1C777D66001BD186 /* ViewController.m */,
-				0D1021C01C777D66001BD186 /* Main.storyboard */,
-				0D1021C31C777D66001BD186 /* Assets.xcassets */,
-				0D1021C51C777D66001BD186 /* LaunchScreen.storyboard */,
-				0D1021C81C777D66001BD186 /* Info.plist */,
+				0D1021EC1C777FF1001BD186 /* Controllers */,
+				0D1021EB1C777FBA001BD186 /* UI */,
+				0D1021EA1C777FA6001BD186 /* Models */,
 				0D1021B71C777D66001BD186 /* Supporting Files */,
+				0D6A3EF21C7AAEB6006B55EF /* Libs */,
 			);
 			path = BizagiTest;
 			sourceTree = "<group>";
@@ -117,7 +123,13 @@
 		0D1021B71C777D66001BD186 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D1021C31C777D66001BD186 /* Assets.xcassets */,
+				0D1021C81C777D66001BD186 /* Info.plist */,
 				0D1021B81C777D66001BD186 /* main.m */,
+				0D1021F31C77BDC1001BD186 /* Activities.json */,
+				0D05B9FB1C78C2B6008F0EEC /* ActivityC1.json */,
+				0DEEBF4A1C78D5C9005760B4 /* ActivitiesC2.json */,
+				0DCCD0A61C78F99900187EEF /* AllActivities.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,19 +137,53 @@
 		0D1021D01C777D66001BD186 /* BizagiTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				0D1021D11C777D66001BD186 /* BizagiTestTests.m */,
+				0D1021D11C777D66001BD186 /* LocalBizagiTestTestsC1.m */,
 				0D1021D31C777D66001BD186 /* Info.plist */,
+				0DEEBF481C78D587005760B4 /* LocalBizagiTestUnitTestC2.m */,
+				0D6A3EF31C7ABAC8006B55EF /* ServerBizagiTestTestsC1.m */,
 			);
 			path = BizagiTestTests;
 			sourceTree = "<group>";
 		};
-		0D1021DB1C777D66001BD186 /* BizagiTestUITests */ = {
+		0D1021EA1C777FA6001BD186 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0D1021DC1C777D66001BD186 /* BizagiTestUITests.m */,
-				0D1021DE1C777D66001BD186 /* Info.plist */,
+				0D1021ED1C7782AF001BD186 /* TestCentral.h */,
+				0D1021EE1C7782AF001BD186 /* TestCentral.m */,
+				0D1021F01C778A72001BD186 /* Activity.h */,
+				0D1021F11C778A72001BD186 /* Activity.m */,
 			);
-			path = BizagiTestUITests;
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D1021EB1C777FBA001BD186 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0D1021C01C777D66001BD186 /* Main.storyboard */,
+				0D1021C51C777D66001BD186 /* LaunchScreen.storyboard */,
+				0D05B9F51C78BB5B008F0EEC /* ActivityTableViewCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		0D1021EC1C777FF1001BD186 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D05B9F21C78BB38008F0EEC /* ActivityTableViewCell.h */,
+				0D05B9F31C78BB38008F0EEC /* ActivityTableViewCell.m */,
+				0DCCD0A31C78DC7600187EEF /* HomeViewController.h */,
+				0DCCD0A41C78DC7600187EEF /* HomeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0D6A3EF21C7AAEB6006B55EF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				0D6A3EEF1C7AAEA4006B55EF /* Reachability.h */,
+				0D6A3EF01C7AAEA4006B55EF /* Reachability.m */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,24 +224,6 @@
 			productReference = 0D1021CD1C777D66001BD186 /* BizagiTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0D1021D71C777D66001BD186 /* BizagiTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D1021E71C777D66001BD186 /* Build configuration list for PBXNativeTarget "BizagiTestUITests" */;
-			buildPhases = (
-				0D1021D41C777D66001BD186 /* Sources */,
-				0D1021D51C777D66001BD186 /* Frameworks */,
-				0D1021D61C777D66001BD186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D1021DA1C777D66001BD186 /* PBXTargetDependency */,
-			);
-			name = BizagiTestUITests;
-			productName = BizagiTestUITests;
-			productReference = 0D1021D81C777D66001BD186 /* BizagiTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,11 +238,6 @@
 						DevelopmentTeam = GTCBS8XMHT;
 					};
 					0D1021CC1C777D66001BD186 = {
-						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = GTCBS8XMHT;
-						TestTargetID = 0D1021B31C777D65001BD186;
-					};
-					0D1021D71C777D66001BD186 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = GTCBS8XMHT;
 						TestTargetID = 0D1021B31C777D65001BD186;
@@ -236,7 +259,6 @@
 			targets = (
 				0D1021B31C777D65001BD186 /* BizagiTest */,
 				0D1021CC1C777D66001BD186 /* BizagiTestTests */,
-				0D1021D71C777D66001BD186 /* BizagiTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,20 +268,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCCD0A71C78F99900187EEF /* AllActivities.json in Resources */,
+				0DEEBF4B1C78D5C9005760B4 /* ActivitiesC2.json in Resources */,
+				0D05B9FC1C78C2B6008F0EEC /* ActivityC1.json in Resources */,
+				0D1021F41C77BDC1001BD186 /* Activities.json in Resources */,
 				0D1021C71C777D66001BD186 /* LaunchScreen.storyboard in Resources */,
+				0D05B9F61C78BB5B008F0EEC /* ActivityTableViewCell.xib in Resources */,
 				0D1021C41C777D66001BD186 /* Assets.xcassets in Resources */,
 				0D1021C21C777D66001BD186 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0D1021CB1C777D66001BD186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D1021D61C777D66001BD186 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D1021BF1C777D66001BD186 /* ViewController.m in Sources */,
 				0D1021BC1C777D66001BD186 /* AppDelegate.m in Sources */,
+				0D1021EF1C7782AF001BD186 /* TestCentral.m in Sources */,
+				0D1021F21C778A72001BD186 /* Activity.m in Sources */,
+				0D6A3EF11C7AAEA4006B55EF /* Reachability.m in Sources */,
 				0D1021B91C777D66001BD186 /* main.m in Sources */,
+				0D05B9F41C78BB38008F0EEC /* ActivityTableViewCell.m in Sources */,
+				0DCCD0A51C78DC7600187EEF /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D1021D21C777D66001BD186 /* BizagiTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D1021D41C777D66001BD186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D1021DD1C777D66001BD186 /* BizagiTestUITests.m in Sources */,
+				0DEEBF491C78D587005760B4 /* LocalBizagiTestUnitTestC2.m in Sources */,
+				0D05B9F71C78C0A5008F0EEC /* TestCentral.m in Sources */,
+				0D05B9F81C78C0A6008F0EEC /* Activity.m in Sources */,
+				0D1021D21C777D66001BD186 /* LocalBizagiTestTestsC1.m in Sources */,
+				0D6A3EF41C7ABAC8006B55EF /* ServerBizagiTestTestsC1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,11 +322,6 @@
 			isa = PBXTargetDependency;
 			target = 0D1021B31C777D65001BD186 /* BizagiTest */;
 			targetProxy = 0D1021CE1C777D66001BD186 /* PBXContainerItemProxy */;
-		};
-		0D1021DA1C777D66001BD186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D1021B31C777D65001BD186 /* BizagiTest */;
-			targetProxy = 0D1021D91C777D66001BD186 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,30 +471,6 @@
 			};
 			name = Release;
 		};
-		0D1021E81C777D66001BD186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BizagiTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.juansmacias.BizagiTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BizagiTest;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		0D1021E91C777D66001BD186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BizagiTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.juansmacias.BizagiTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BizagiTest;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -499,6 +490,7 @@
 				0D1021E31C777D66001BD186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D1021E41C777D66001BD186 /* Build configuration list for PBXNativeTarget "BizagiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,14 +499,7 @@
 				0D1021E61C777D66001BD186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0D1021E71C777D66001BD186 /* Build configuration list for PBXNativeTarget "BizagiTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D1021E81C777D66001BD186 /* Debug */,
-				0D1021E91C777D66001BD186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

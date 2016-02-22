@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "models/TestCentral.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

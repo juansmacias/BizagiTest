@@ -1,0 +1,14 @@
+[
+ {
+ "processId": "1",
+ "process": "Vacations",
+ "activityId": "1",
+ "activity": "Approval",
+ "requestDate": "2013-03-01",
+ "employee": "Andres Iniesta",
+ "beginDate": "2013-12-23",
+ "endDate": "2014-01-03",
+ "lastVacationOn": "2013-01-03",
+ "approved": ""
+ }
+]
