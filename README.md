@@ -2,7 +2,7 @@
   <content><![CDATA[
       # BizagiTest
       Prueba de admisión para la empresa Bizagi.
-      Funcionalidades
+      ## Funcionalidades
         -Aloja actividades locales del proceso de vacaciones. 
         -Descarga actividades de servidor. 
         -Permite aceptar una actividad, al seleccionarla.
